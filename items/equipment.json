@@ -2,7 +2,7 @@
   {
     "name": "Sword",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/wooden-sword.png",
@@ -108,12 +108,12 @@
     "img": "images/hiddenskill.png",
     "max_quantity": 7,
     "increment": 1,
-    "codes": "skill"
+    "codes": "skills"
   },
   {
     "name": "Quiver",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "allow_disabled": false,
     "stages": [
       {
@@ -133,7 +133,7 @@
   {
     "name": "Wallet",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "allow_disabled": false,
     "stages": [
       {

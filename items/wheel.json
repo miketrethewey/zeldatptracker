@@ -2,7 +2,7 @@
   {
     "name": "Fishing Rod",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/rod.png",
@@ -74,7 +74,7 @@
   {
     "name": "Clawshot",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/clawshot.png",
@@ -103,7 +103,7 @@
   {
     "name": "Dominion Rod",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/brokedominion.png",
@@ -118,7 +118,7 @@
   {
     "name": "Bottle",
     "type": "progressive",
-    "loop": false,
+    "loop": true,
     "stages": [
       {
         "img": "images/bottle-empty.png",
@@ -171,6 +171,7 @@
   {
     "name": "Ilia's Memory",
     "type": "progressive",
+    "loop": true,
     "img": "images/letter.png",
     "stages": [
       {
