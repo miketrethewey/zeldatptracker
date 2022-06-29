@@ -9,12 +9,13 @@ print("Loading Items")
 Tracker:AddItems("items/wheel.json")
 Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/misc.json")
+Tracker:AddItems("items/options.json")
 print("")
 
 -- Other Layouts
 print("Loading Layouts")
-Tracker:AddLayouts("tracker.json")
-Tracker:AddLayouts("broadcast.json")
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/broadcast.json")
 print("")
 
 if string.find(variant, "map") then
