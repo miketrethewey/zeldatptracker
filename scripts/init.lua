@@ -1,6 +1,7 @@
+local items_only = "standard"
 local variant = Tracker.ActiveVariantUID
 if variant == "" then
-  variant = "items_only"
+  variant = items_only
 end
 
 -- Items
@@ -40,7 +41,7 @@ Tracker:AddLocations("locations/world.json")
 print("")
 
 -- Variant Overrides
-if variant ~= "items_only" then
+if variant ~= items_only then
   print("Loading Variant")
   -- Layout Overrides
   Tracker:AddLayouts("variants/" .. variant .. "/layouts/tracker.json")    -- Main Tracker
