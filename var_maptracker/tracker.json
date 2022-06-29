@@ -9,15 +9,64 @@
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "1,2",
-	  "item_size": 40,
+      "item_size": 40,
       "rows": [
-        [ "fishingrod", "slingshot", "lantern", "rang", "irons", "bow" ],
-		[ "bombs", "waterbomb", "clawshot", "spinner", "b&c", "brokerod" ],
-        [ "bottleempty","bottleempty", "bottleempty", "bottleempty", "hawkeye", "call"],
-        [ "woodsword", "ordonshield", "hylianshield", "herotunic", "zora", "magic" ],
-        [ "crystal", "youth", "iliascent", "poescent", "reekfish", "medicine" ],
-        [ "memo", "sketch", "letter", "book", "soul", "bugs" ],
-        [ "skills", "wallet", "quiver", "giantbomb", "poh", "container" ]
+        [
+          "fishingrod",
+          "slingshot",
+          "lantern",
+          "rang",
+          "irons",
+          "bow"
+        ],
+        [
+          "bombs",
+          "waterbomb",
+          "clawshot",
+          "spinner",
+          "b&c",
+          "brokerod"
+        ],
+        [
+          "bottleempty",
+          "bottleempty",
+          "bottleempty",
+          "bottleempty",
+          "hawkeye",
+          "call"
+        ],
+        [
+          "woodsword",
+          "ordonshield",
+          "hylianshield",
+          "herotunic",
+          "zora",
+          "magic"
+        ],
+        [
+          "crystal",
+          "youth",
+          "iliascent",
+          "poescent",
+          "reekfish",
+          "medicine"
+        ],
+        [
+          "memo",
+          "sketch",
+          "letter",
+          "book",
+          "soul",
+          "bugs"
+        ],
+        [
+          "skills",
+          "wallet",
+          "quiver",
+          "giantbomb",
+          "poh",
+          "container"
+        ]
       ]
     },
     "tracker_capture_item": {
@@ -26,15 +75,64 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_margin": "1,2",
-		"item_size": 40,
+        "item_size": 40,
         "rows": [
-        [ "fishingrod", "slingshot", "lantern", "rang", "irons", "bow" ],
-		[ "bombs", "waterbomb", "clawshot", "spinner", "b&c", "brokerod" ],
-        [ "bottleempty","bottleempty", "bottleempty", "bottleempty", "hawkeye", "call"],
-        [ "woodsword", "ordonshield", "hylianshield", "herotunic", "zora", "magic" ],
-        [ "crystal", "youth", "iliascent", "poescent", "reekfish", "medicine" ],
-        [ "memo", "sketch", "letter", "book", "soul", "bugs" ],
-        [ "skills", "wallet", "quiver", "giantbomb", "poh", "container" ]
+          [
+            "fishingrod",
+            "slingshot",
+            "lantern",
+            "rang",
+            "irons",
+            "bow"
+          ],
+          [
+            "bombs",
+            "waterbomb",
+            "clawshot",
+            "spinner",
+            "b&c",
+            "brokerod"
+          ],
+          [
+            "bottleempty",
+            "bottleempty",
+            "bottleempty",
+            "bottleempty",
+            "hawkeye",
+            "call"
+          ],
+          [
+            "woodsword",
+            "ordonshield",
+            "hylianshield",
+            "herotunic",
+            "zora",
+            "magic"
+          ],
+          [
+            "crystal",
+            "youth",
+            "iliascent",
+            "poescent",
+            "reekfish",
+            "medicine"
+          ],
+          [
+            "memo",
+            "sketch",
+            "letter",
+            "book",
+            "soul",
+            "bugs"
+          ],
+          [
+            "skills",
+            "wallet",
+            "quiver",
+            "giantbomb",
+            "poh",
+            "container"
+          ]
         ]
       }
     },
@@ -49,7 +147,7 @@
             "type": "dock",
             "dock": "left",
             "v_alignment": "stretch",
-		    "margin": "0,0,3,0",
+            "margin": "0,0,3,0",
             "content": [
               {
                 "type": "group",
@@ -69,7 +167,7 @@
               {
                 "type": "group",
                 "header": "Pinned Locations",
-	   		    "dock": "left",
+                "dock": "left",
                 "content": {
                   "type": "recentpins",
                   "style": "wrap",
@@ -82,14 +180,14 @@
           },
           {
             "type": "container",
-			"background": "#000000",
-			"content": {
-				"type": "map",
-				"maps": [
-					"Main"
-				]
-			}
-		  }
+            "background": "#000000",
+            "content": {
+              "type": "map",
+              "maps": [
+                "Main"
+              ]
+            }
+          }
         ]
       }
     },
@@ -104,7 +202,7 @@
             "type": "dock",
             "dock": "left",
             "v_alignment": "stretch",
-		    "margin": "0,0,3,0",
+            "margin": "0,0,3,0",
             "content": [
               {
                 "type": "group",
@@ -124,7 +222,7 @@
               {
                 "type": "group",
                 "header": "Pinned Locations",
-	   		    "dock": "left",
+                "dock": "left",
                 "content": {
                   "type": "recentpins",
                   "style": "wrap",
@@ -137,14 +235,14 @@
           },
           {
             "type": "container",
-			"background": "#000000",
-			"content": {
-				"type": "map",
-				"maps": [
-					"Main"
-				]
-			}
-		  }
+            "background": "#000000",
+            "content": {
+              "type": "map",
+              "maps": [
+                "Main"
+              ]
+            }
+          }
         ]
       }
     }

@@ -3,24 +3,24 @@
     "name": "Sword",
     "type": "progressive",
     "loop": false,
-	"stages": [
-		{
-			"img": "images/wooden-sword.png",
-			"codes": "woodsword"
-		},
-		{
-			"img": "images/ordon-sword.png",
-			"codes": "ordonsword"
-		},
-		{
-			"img": "images/master-sword.png",
-			"codes": "mastersword"
-		},
-		{
-			"img": "images/master-sword-light.png",
-			"codes": "lightsword"
-		}
-	]
+    "stages": [
+      {
+        "img": "images/wooden-sword.png",
+        "codes": "woodsword"
+      },
+      {
+        "img": "images/ordon-sword.png",
+        "codes": "ordonsword"
+      },
+      {
+        "img": "images/master-sword.png",
+        "codes": "mastersword"
+      },
+      {
+        "img": "images/master-sword-light.png",
+        "codes": "lightsword"
+      }
+    ]
   },
   {
     "name": "Ordon Shield",
@@ -114,41 +114,41 @@
     "name": "Quiver",
     "type": "progressive",
     "loop": false,
-	"allow_disabled": false,
-	"stages": [
-		{
-			"img": "images/quiver1.png",
-			"codes": "quiver"
-		},
-		{
-			"img": "images/quiver2.png",
-			"codes": "bigquiver"
-		},
-		{
-			"img": "images/quiver3.png",
-			"codes": "giantquiver"
-		}
-	]
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/quiver1.png",
+        "codes": "quiver"
+      },
+      {
+        "img": "images/quiver2.png",
+        "codes": "bigquiver"
+      },
+      {
+        "img": "images/quiver3.png",
+        "codes": "giantquiver"
+      }
+    ]
   },
   {
     "name": "Wallet",
     "type": "progressive",
     "loop": false,
-	"allow_disabled": false,
-	"stages": [
-		{
-			"img": "images/wallet.png",
-			"codes": "wallet"
-		},
-		{
-			"img": "images/bigwallet.png",
-			"codes": "bigwallet"
-		},
-		{
-			"img": "images/giantwallet.png",
-			"codes": "giantwallet"
-		}
-	]
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/wallet.png",
+        "codes": "wallet"
+      },
+      {
+        "img": "images/bigwallet.png",
+        "codes": "bigwallet"
+      },
+      {
+        "img": "images/giantwallet.png",
+        "codes": "giantwallet"
+      }
+    ]
   },
   {
     "name": "Giant Bomb Bag",

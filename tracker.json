@@ -9,16 +9,65 @@
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "1,1",
-	  "item_size": 45,
+      "item_size": 45,
       "rows": [
-        [ "fishingrod", "slingshot", "lantern", "rang", "irons", "bow" ],
-		[ "bombs", "waterbomb", "clawshot", "spinner", "b&c", "brokerod" ],
-        [ "bottleempty","bottleempty", "bottleempty", "bottleempty", "hawkeye", "call"],
-        [ "woodsword", "ordonshield", "hylianshield", "herotunic", "zora", "magic" ],
-        [ "crystal", "youth", "iliascent", "poescent", "reekfish", "medicine" ],
-        [ "memo", "sketch", "letter", "book", "soul", "bugs" ],
-        [ "skills", "wallet", "quiver", "giantbomb", "poh", "container" ]
-		]
+        [
+          "fishingrod",
+          "slingshot",
+          "lantern",
+          "rang",
+          "irons",
+          "bow"
+        ],
+        [
+          "bombs",
+          "waterbomb",
+          "clawshot",
+          "spinner",
+          "b&c",
+          "brokerod"
+        ],
+        [
+          "bottleempty",
+          "bottleempty",
+          "bottleempty",
+          "bottleempty",
+          "hawkeye",
+          "call"
+        ],
+        [
+          "woodsword",
+          "ordonshield",
+          "hylianshield",
+          "herotunic",
+          "zora",
+          "magic"
+        ],
+        [
+          "crystal",
+          "youth",
+          "iliascent",
+          "poescent",
+          "reekfish",
+          "medicine"
+        ],
+        [
+          "memo",
+          "sketch",
+          "letter",
+          "book",
+          "soul",
+          "bugs"
+        ],
+        [
+          "skills",
+          "wallet",
+          "quiver",
+          "giantbomb",
+          "poh",
+          "container"
+        ]
+      ]
     },
     "tracker_capture_item": {
       "type": "container",
@@ -26,33 +75,82 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_margin": "1,1",
-		"item_size": 45,
+        "item_size": 45,
         "rows": [
-        [ "fishingrod", "slingshot", "lantern", "rang", "irons", "bow" ],
-		[ "bombs", "waterbomb", "clawshot", "spinner", "b&c", "brokerod" ],
-        [ "bottleempty","bottleempty", "bottleempty", "bottleempty", "hawkeye", "call"],
-        [ "woodsword", "ordonshield", "hylianshield", "herotunic", "zora", "magic" ],
-        [ "crystal", "youth", "iliascent", "poescent", "reekfish", "medicine" ],
-        [ "memo", "sketch", "letter", "book", "soul", "bugs" ],
-        [ "skills", "wallet", "quiver", "giantbomb", "poh", "container" ]
+          [
+            "fishingrod",
+            "slingshot",
+            "lantern",
+            "rang",
+            "irons",
+            "bow"
+          ],
+          [
+            "bombs",
+            "waterbomb",
+            "clawshot",
+            "spinner",
+            "b&c",
+            "brokerod"
+          ],
+          [
+            "bottleempty",
+            "bottleempty",
+            "bottleempty",
+            "bottleempty",
+            "hawkeye",
+            "call"
+          ],
+          [
+            "woodsword",
+            "ordonshield",
+            "hylianshield",
+            "herotunic",
+            "zora",
+            "magic"
+          ],
+          [
+            "crystal",
+            "youth",
+            "iliascent",
+            "poescent",
+            "reekfish",
+            "medicine"
+          ],
+          [
+            "memo",
+            "sketch",
+            "letter",
+            "book",
+            "soul",
+            "bugs"
+          ],
+          [
+            "skills",
+            "wallet",
+            "quiver",
+            "giantbomb",
+            "poh",
+            "container"
+          ]
         ]
       }
     },
-  "tracker_default": {
-    "type": "container",
-    "background": "#000000",
-    "dropshadow": true,
-	"width": 300,
-    "content": {
-      "type": "array",
-      "orientation": "vertical",
-      "content": [
-        {
-          "type": "layout",
-          "key": "shared_item_grid"
-        }
-      ]
+    "tracker_default": {
+      "type": "container",
+      "background": "#000000",
+      "dropshadow": true,
+      "width": 300,
+      "content": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          }
+        ]
+      }
     }
   }
- }
 }

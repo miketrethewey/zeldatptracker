@@ -3,16 +3,16 @@
     "name": "Fishing Rod",
     "type": "progressive",
     "loop": false,
-	"stages": [
-		{
-			"img": "images/rod.png",
-			"codes": "fishingrod"
-		},
-		{
-			"img": "images/earring.png",
-			"codes": "earring"
-		}
-	]
+    "stages": [
+      {
+        "img": "images/rod.png",
+        "codes": "fishingrod"
+      },
+      {
+        "img": "images/earring.png",
+        "codes": "earring"
+      }
+    ]
   },
   {
     "name": "Slingshot",
@@ -75,16 +75,16 @@
     "name": "Clawshot",
     "type": "progressive",
     "loop": false,
-	"stages": [
-		{
-			"img": "images/clawshot.png",
-			"codes": "clawshot"
-		},
-		{
-			"img": "images/clawshot2.png",
-			"codes": "clawshot, doubleclaw"
-		}
-	]
+    "stages": [
+      {
+        "img": "images/clawshot.png",
+        "codes": "clawshot"
+      },
+      {
+        "img": "images/clawshot2.png",
+        "codes": "clawshot, doubleclaw"
+      }
+    ]
   },
   {
     "name": "Spinner",
@@ -104,55 +104,55 @@
     "name": "Dominion Rod",
     "type": "progressive",
     "loop": false,
-	"stages": [
-		{
-			"img": "images/brokedominion.png",
-			"codes": "brokerod"
-		},
-		{
-			"img": "images/dominion.png",
-			"codes": "powerrod"
-		}
-	]
+    "stages": [
+      {
+        "img": "images/brokedominion.png",
+        "codes": "brokerod"
+      },
+      {
+        "img": "images/dominion.png",
+        "codes": "powerrod"
+      }
+    ]
   },
   {
     "name": "Bottle",
     "type": "progressive",
     "loop": false,
-	"stages": [
-		{
-			"img": "images/bottle-empty.png",
-			"codes": "bottleempty"
-		},
-		{
-			"img": "images/bottle-larvae.png",
-			"codes": "bottlelarvae"
-		},
-		{
-			"img": "images/bottle-oil.png",
-			"codes": "bottleoil"
-		},
-		{
-			"img": "images/bottle-red.png",
-			"codes": "bottlered"
-		},
-		{
-			"img": "images/bottle-fairy.png",
-			"codes": "bottlefairy"
-		},
-		{
-			"img": "images/bottle-blue.png",
-			"codes": "bottleblue"
-		},
-		{
-			"img": "images/bottle-soup.png",
-			"codes": "bottlesoup"
-		},
-		{
-			"img": "images/bottle-tears.png",
-			"codes": "bottletears"
-		}
-	]
+    "stages": [
+      {
+        "img": "images/bottle-empty.png",
+        "codes": "bottleempty"
+      },
+      {
+        "img": "images/bottle-larvae.png",
+        "codes": "bottlelarvae"
+      },
+      {
+        "img": "images/bottle-oil.png",
+        "codes": "bottleoil"
+      },
+      {
+        "img": "images/bottle-red.png",
+        "codes": "bottlered"
+      },
+      {
+        "img": "images/bottle-fairy.png",
+        "codes": "bottlefairy"
+      },
+      {
+        "img": "images/bottle-blue.png",
+        "codes": "bottleblue"
+      },
+      {
+        "img": "images/bottle-soup.png",
+        "codes": "bottlesoup"
+      },
+      {
+        "img": "images/bottle-tears.png",
+        "codes": "bottletears"
+      }
+    ]
   },
   {
     "name": "Auru's Memo",
@@ -172,24 +172,24 @@
     "name": "Ilia's Memory",
     "type": "progressive",
     "img": "images/letter.png",
-	"stages": [
-		{
-			"img": "images/letter.png",
-			"codes": "letter"
-		},
-		{
-			"img": "images/invoice.png",
-			"codes": "invoice"
-		},
-		{
-			"img": "images/statue.png",
-			"codes": "statue"
-		},
-		{
-			"img": "images/ilia-charm.png",
-			"codes": "charm"
-		}
-	]
+    "stages": [
+      {
+        "img": "images/letter.png",
+        "codes": "letter"
+      },
+      {
+        "img": "images/invoice.png",
+        "codes": "invoice"
+      },
+      {
+        "img": "images/statue.png",
+        "codes": "statue"
+      },
+      {
+        "img": "images/ilia-charm.png",
+        "codes": "charm"
+      }
+    ]
   },
   {
     "name": "Horse Call",
