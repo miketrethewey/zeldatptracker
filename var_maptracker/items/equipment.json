@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Sword",
+    "type": "progressive",
+    "loop": false,
+	"stages": [
+		{
+			"img": "images/wooden-sword.png",
+			"codes": "woodsword"
+		},
+		{
+			"img": "images/ordon-sword.png",
+			"codes": "ordonsword"
+		},
+		{
+			"img": "images/master-sword.png",
+			"codes": "mastersword"
+		},
+		{
+			"img": "images/master-sword-light.png",
+			"codes": "lightsword"
+		}
+	]
+  },
+  {
+    "name": "Ordon Shield",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/ordon-shield.png",
+    "codes": "ordonshield"
+  },
+  {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/hylian-shield.png",
+    "codes": "hylianshield"
+  },
+  {
+    "name": "Shadow Crystal",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/crystal.png",
+    "codes": "crystal"
+  },
+  {
+    "name": "Hero's Tunic",
+    "type": "toggle",
+    "loop": true,
+    "initial_active_state": true,
+    "img": "images/herotunic.png",
+    "codes": "herotunic"
+  },
+  {
+    "name": "Zora Armor",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/zora-armor.png",
+    "codes": "zora"
+  },
+  {
+    "name": "Magic Armor",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/magic-armor.png",
+    "codes": "magic"
+  },
+  {
+    "name": "Youths' Scent",
+    "type": "toggle",
+    "loop": true,
+    "initial_active_state": true,
+    "img": "images/youth-scent.png",
+    "codes": "youth"
+  },
+  {
+    "name": "Ilia's Scent",
+    "type": "toggle",
+    "loop": true,
+    "initial_active_state": true,
+    "img": "images/ilia-scent.png",
+    "codes": "iliascent"
+  },
+  {
+    "name": "Poes' Scent",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/poe-scent.png",
+    "codes": "poescent"
+  },
+  {
+    "name": "Reekfish Scent",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/reekfish-scent.png",
+    "codes": "reekfish"
+  },
+  {
+    "name": "Medicine Scent",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/medicine-scent.png",
+    "codes": "medicine"
+  },
+  {
+    "name": "Hidden Skills",
+    "type": "consumable",
+    "img": "images/hiddenskill.png",
+    "max_quantity": 7,
+    "increment": 1,
+    "codes": "skill"
+  },
+  {
+    "name": "Quiver",
+    "type": "progressive",
+    "loop": false,
+	"allow_disabled": false,
+	"stages": [
+		{
+			"img": "images/quiver1.png",
+			"codes": "quiver"
+		},
+		{
+			"img": "images/quiver2.png",
+			"codes": "bigquiver"
+		},
+		{
+			"img": "images/quiver3.png",
+			"codes": "giantquiver"
+		}
+	]
+  },
+  {
+    "name": "Wallet",
+    "type": "progressive",
+    "loop": false,
+	"allow_disabled": false,
+	"stages": [
+		{
+			"img": "images/wallet.png",
+			"codes": "wallet"
+		},
+		{
+			"img": "images/bigwallet.png",
+			"codes": "bigwallet"
+		},
+		{
+			"img": "images/giantwallet.png",
+			"codes": "giantwallet"
+		}
+	]
+  },
+  {
+    "name": "Giant Bomb Bag",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/giantbombbag.png",
+    "codes": "giantbomb"
+  },
+  {
+    "name": "FT Fused Shadow",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shadow1.png",
+    "codes": "ftshadow"
+  },
+  {
+    "name": "GM Fused Shadow",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shadow2.png",
+    "codes": "gmshadow"
+  },
+  {
+    "name": "LT Fused Shadow",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shadow3.png",
+    "codes": "ltshadow"
+  },
+  {
+    "name": "AG Mirror Shard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shard1.png",
+    "codes": "agmirror"
+  },
+  {
+    "name": "SR Mirror Shard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shard2.png",
+    "codes": "srmirror"
+  },
+  {
+    "name": "ToT Mirror Shard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shard3.png",
+    "codes": "totmirror"
+  },
+  {
+    "name": "CitS Mirror Shard",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/shard4.png",
+    "codes": "citsmirror"
+  }
+]

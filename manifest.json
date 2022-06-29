@@ -1,0 +1,15 @@
+﻿{
+  "name": "Twilight Princess Item Tracker",
+  "game_name": "The Legend of Zelda: Twilight Princess",
+  "package_version": "1.0.0",
+  "package_uid": "zeldatp_xenowars",
+  "author": "XenoWars",
+  "variants": {
+    "standard": {
+      "display_name": "Item Tracker"
+    },
+    "var_maptracker": {
+      "display_name": "Map Tracker"
+    }
+  }
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "name": "Poe Souls",
+    "type": "consumable",
+    "img": "images/soul.png",
+    "max_quantity": 60,
+    "increment": 1,
+    "codes": "soul"
+  },
+  {
+    "name": "Pieces of Heart",
+    "type": "consumable",
+    "img": "images/HP.png",
+    "max_quantity": 45,
+    "increment": 1,
+    "codes": "poh"
+  },
+  {
+    "name": "Heart Containers",
+    "type": "consumable",
+    "img": "images/HC.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "codes": "container"
+  },
+  {
+    "name": "Golden Bugs",
+    "type": "consumable",
+    "img": "images/bug-m-dragon.png",
+    "max_quantity": 24,
+    "increment": 1,
+    "codes": "bugs"
+  },
+  {
+    "name": "Male Ant",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-ant.png",
+    "codes": "mant"
+  },
+  {
+    "name": "Female Ant",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-ant.png",
+    "codes": "fant"
+  },
+  {
+    "name": "Male Mantis",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-mantis.png",
+    "codes": "mmantis"
+  },
+  {
+    "name": "Male Butterfly",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-butterfly.png",
+    "codes": "mbutterfly"
+  },
+  {
+    "name": "Male Phasmid",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-phasmid.png",
+    "codes": "mphasmid"
+  },
+  {
+    "name": "Male Dayfly",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-dayfly.png",
+    "codes": "mdayfly"
+  },
+  {
+    "name": "Male Stag Beetle",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-stag.png",
+    "codes": "mstag"
+  },
+  {
+    "name": "Male Ladybug",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-ladybug.png",
+    "codes": "mladybug"
+  },
+  {
+    "name": "Male Grasshopper",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-grass.png",
+    "codes": "mgrass"
+  },
+  {
+    "name": "Male Beetle",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-beetle.png",
+    "codes": "mbeetle"
+  },
+  {
+    "name": "Male Pill Bug",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-pill.png",
+    "codes": "mpill"
+  },
+  {
+    "name": "Male Snail",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-snail.png",
+    "codes": "msnail"
+  },
+  {
+    "name": "Male Dragonfly",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-m-dragon.png",
+    "codes": "mdragon"
+  },
+  {
+    "name": "Female Mantis",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-mantis.png",
+    "codes": "fmantis"
+  },
+  {
+    "name": "Female Butterfly",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-butterfly.png",
+    "codes": "fbutterfly"
+  },
+  {
+    "name": "Female Phasmid",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-phasmid.png",
+    "codes": "fphasmid"
+  },
+  {
+    "name": "Female Dayfly",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-dayfly.png",
+    "codes": "fdayfly"
+  },
+  {
+    "name": "Female Stag Beetle",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-stag.png",
+    "codes": "fstag"
+  },
+  {
+    "name": "Female Ladybug",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-ladybug.png",
+    "codes": "fladybug"
+  },
+  {
+    "name": "Female Grasshopper",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-grass.png",
+    "codes": "fgrass"
+  },
+  {
+    "name": "Female Beetle",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-beetle.png",
+    "codes": "fbeetle"
+  },
+  {
+    "name": "Female Pill Bug",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-pill.png",
+    "codes": "fpill"
+  },
+  {
+    "name": "Female Snail",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-snail.png",
+    "codes": "fsnail"
+  },
+  {
+    "name": "Female Dragonfly",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/bug-f-dragon.png",
+    "codes": "fdragon"
+  },
+  {
+    "name": "FT Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "ftbigkey"
+  },
+  {
+    "name": "GM Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "gmbigkey"
+  },
+  {
+    "name": "LT Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "ltbigkey"
+  },
+  {
+    "name": "AG Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "agbigkey"
+  },
+  {
+    "name": "Bedroom Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-bed.png",
+    "codes": "bedroomkey"
+  },
+  {
+    "name": "ToT Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "totbigkey"
+  },
+  {
+    "name": "CitS Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "citsbigkey"
+  },
+  {
+    "name": "PoT Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "potbigkey"
+  },
+  {
+    "name": "HC Big Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-boss.png",
+    "codes": "hcbigkey"
+  },
+  {
+    "name": "FT Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "codes": "ftsmall"
+  },
+  {
+    "name": "GM Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "codes": "gmsmall"
+  },
+  {
+    "name": "LT Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "codes": "ltsmall"
+  },
+  {
+    "name": "AG Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 5,
+    "increment": 1,
+    "codes": "agsmall"
+  },
+  {
+    "name": "SR Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 4,
+    "increment": 1,
+    "codes": "srsmall"
+  },
+  {
+    "name": "ToT Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "codes": "totsmall"
+  },
+  {
+    "name": "CitS Small Keys",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-small.png",
+    "codes": "citssmall"
+  },
+  {
+    "name": "PoT Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 7,
+    "increment": 1,
+    "codes": "potsmall"
+  },
+  {
+    "name": "HC Small Keys",
+    "type": "consumable",
+    "img": "images/key-small.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "codes": "hcsmall"
+  },
+  {
+    "name": "Faron Gate Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-small.png",
+    "codes": "faronkey"
+  },
+  {
+    "name": "Gate Keys",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-small.png",
+    "codes": "gatekeys"
+  },
+  {
+    "name": "Bulblin Camp Key",
+    "type": "toggle",
+	"loop": true,
+    "img": "images/key-small.png",
+    "codes": "campkey"
+  }
+]
