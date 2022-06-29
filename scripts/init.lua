@@ -22,7 +22,7 @@ if string.find(variant, "map") then
 
   -- Options Layout
   print("Loading Options")
-  Tracker:AddLayouts("options.json")
+  Tracker:AddLayouts("variants/" .. variant .. "/layouts/options.json")
   print("")
 
   print("Loading Maps")
@@ -38,3 +38,12 @@ print("Satisfy Legacy Loads")
 Tracker:AddMaps("maps/maps.json")
 Tracker:AddLocations("locations/world.json")
 print("")
+
+-- Variant Overrides
+if variant ~= "items_only" then
+  print("Loading Variant")
+  -- Layout Overrides
+  Tracker:AddLayouts("variants/" .. variant .. "/layouts/tracker.json")    -- Main Tracker
+  Tracker:AddLayouts("variants/" .. variant .. "/layouts/broadcast.json")  -- Broadcast View
+  print("")
+end
