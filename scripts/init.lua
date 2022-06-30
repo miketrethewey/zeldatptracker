@@ -21,6 +21,11 @@ if string.find(variant, "map") then
   print("Map Variant; load map stuff")
   print("")
 
+  -- Options Items
+  print("Loading Items")
+  Tracker:AddItems("variants/" .. variant .. "/items/options.json")
+  print("")
+
   -- Options Layout
   print("Loading Options")
   Tracker:AddLayouts("variants/" .. variant .. "/layouts/options.json")
