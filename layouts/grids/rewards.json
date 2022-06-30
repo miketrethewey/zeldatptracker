@@ -1,0 +1,19 @@
+{
+  "rewards_grid": {
+    "type": "itemgrid",
+    "item_margin": "1,1",
+    "item_size": 45,
+    "rows": [
+      [
+        "ftreward",
+        "gmreward",
+        "ltreward",
+        "agmirror",
+        "srreward",
+        "totreward",
+        "citsreward",
+        "potshadow"
+      ]
+    ]
+  }
+}

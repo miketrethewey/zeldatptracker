@@ -45,6 +45,10 @@
       {
         "type": "layout",
         "key": "upgrades_grid"
+      },
+      {
+        "type": "layout",
+        "key": "rewards_grid"
       }
     ]
   }
