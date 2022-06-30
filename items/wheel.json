@@ -116,41 +116,158 @@
     ]
   },
   {
-    "name": "Bottle",
+    "name": "Bottle 1",
     "type": "progressive",
     "loop": true,
     "stages": [
       {
         "img": "images/bottle-empty.png",
-        "codes": "bottleempty"
+        "codes": "bottleempty, bottle1"
       },
       {
         "img": "images/bottle-larvae.png",
-        "codes": "bottlelarvae"
+        "codes": "bottlelarvae, bottle1"
       },
       {
         "img": "images/bottle-oil.png",
-        "codes": "bottleoil"
+        "codes": "bottleoil, bottle1"
       },
       {
         "img": "images/bottle-red.png",
-        "codes": "bottlered"
+        "codes": "bottlered, bottle1"
       },
       {
         "img": "images/bottle-fairy.png",
-        "codes": "bottlefairy"
+        "codes": "bottlefairy, bottle1"
       },
       {
         "img": "images/bottle-blue.png",
-        "codes": "bottleblue"
+        "codes": "bottleblue, bottle1"
       },
       {
         "img": "images/bottle-soup.png",
-        "codes": "bottlesoup"
+        "codes": "bottlesoup, bottle1"
       },
       {
         "img": "images/bottle-tears.png",
-        "codes": "bottletears"
+        "codes": "bottletears, bottle1"
+      }
+    ]
+  },
+  {
+    "name": "Bottle 2",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bottle-empty.png",
+        "codes": "bottleempty, bottle2"
+      },
+      {
+        "img": "images/bottle-larvae.png",
+        "codes": "bottlelarvae, bottle2"
+      },
+      {
+        "img": "images/bottle-oil.png",
+        "codes": "bottleoil, bottle2"
+      },
+      {
+        "img": "images/bottle-red.png",
+        "codes": "bottlered, bottle2"
+      },
+      {
+        "img": "images/bottle-fairy.png",
+        "codes": "bottlefairy, bottle2"
+      },
+      {
+        "img": "images/bottle-blue.png",
+        "codes": "bottleblue, bottle2"
+      },
+      {
+        "img": "images/bottle-soup.png",
+        "codes": "bottlesoup, bottle2"
+      },
+      {
+        "img": "images/bottle-tears.png",
+        "codes": "bottletears, bottle2"
+      }
+    ]
+  },
+  {
+    "name": "Bottle 3",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bottle-empty.png",
+        "codes": "bottleempty, bottle3"
+      },
+      {
+        "img": "images/bottle-larvae.png",
+        "codes": "bottlelarvae, bottle3"
+      },
+      {
+        "img": "images/bottle-oil.png",
+        "codes": "bottleoil, bottle3"
+      },
+      {
+        "img": "images/bottle-red.png",
+        "codes": "bottlered, bottle3"
+      },
+      {
+        "img": "images/bottle-fairy.png",
+        "codes": "bottlefairy, bottle3"
+      },
+      {
+        "img": "images/bottle-blue.png",
+        "codes": "bottleblue, bottle3"
+      },
+      {
+        "img": "images/bottle-soup.png",
+        "codes": "bottlesoup, bottle3"
+      },
+      {
+        "img": "images/bottle-tears.png",
+        "codes": "bottletears, bottle3"
+      }
+    ]
+  },
+  {
+    "name": "Bottle 4",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bottle-empty.png",
+        "codes": "bottleempty, bottle4"
+      },
+      {
+        "img": "images/bottle-larvae.png",
+        "codes": "bottlelarvae, bottle4"
+      },
+      {
+        "img": "images/bottle-oil.png",
+        "codes": "bottleoil, bottle4"
+      },
+      {
+        "img": "images/bottle-red.png",
+        "codes": "bottlered, bottle4"
+      },
+      {
+        "img": "images/bottle-fairy.png",
+        "codes": "bottlefairy, bottle4"
+      },
+      {
+        "img": "images/bottle-blue.png",
+        "codes": "bottleblue, bottle4"
+      },
+      {
+        "img": "images/bottle-soup.png",
+        "codes": "bottlesoup, bottle4"
+      },
+      {
+        "img": "images/bottle-tears.png",
+        "codes": "bottletears, bottle4"
       }
     ]
   },
