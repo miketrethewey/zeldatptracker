@@ -1,9 +1,9 @@
 {
   "shared_item_grid": {
     "type": "itemgrid",
-    "h_alignment": "center",
+    "h_alignment": "left",
     "item_margin": "1,1",
-    "item_size": 45,
+    "item_size": 35,
     "rows": [
       [
         "fishingrod",
@@ -22,10 +22,10 @@
         "brokerod"
       ],
       [
-        "bottleempty",
-        "bottleempty",
-        "bottleempty",
-        "bottleempty",
+        "bottle1",
+        "bottle2",
+        "bottle3",
+        "bottle4",
         "hawkeye",
         "call"
       ],
@@ -60,7 +60,17 @@
         "giantbomb",
         "poh",
         "container"
-      ]
+      ],
+	  [
+		"ftreward",
+		"gmreward",
+		"ltreward",
+		"agmirror",
+		"srreward",
+		"totreward",
+		"citsreward",
+		"potshadow"
+	  ]
     ]
   },
   "tracker_capture_item": {
@@ -69,7 +79,7 @@
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "1,1",
-      "item_size": 45,
+      "item_size": 35,
       "rows": [
         [
           "fishingrod",
@@ -88,10 +98,10 @@
           "brokerod"
         ],
         [
-          "bottleempty",
-          "bottleempty",
-          "bottleempty",
-          "bottleempty",
+          "bottle1",
+          "bottle2",
+          "bottle3",
+          "bottle4",
           "hawkeye",
           "call"
         ],
@@ -126,7 +136,17 @@
           "giantbomb",
           "poh",
           "container"
-        ]
+        ],
+	    [
+		  "ftreward",
+		  "gmreward",
+		  "ltreward",
+		  "agmirror",
+		  "srreward",
+		  "totreward",
+		  "citsreward",
+		  "potshadow"
+	    ]
       ]
     }
   },

@@ -11,9 +11,9 @@
         "content": [
           {
             "type": "itemgrid",
-            "h_alignment": "center",
+            "h_alignment": "left",
             "item_margin": "1,2",
-            "item_size": 60,
+            "item_size": 35,
             "rows": [
               [
                 "fishingrod",
@@ -32,10 +32,10 @@
                 "brokerod"
               ],
               [
-                "bottleempty",
-                "bottleempty",
-                "bottleempty",
-                "bottleempty",
+                "bottle1",
+                "bottle2",
+                "bottle3",
+                "bottle4",
                 "hawkeye",
                 "call"
               ],
@@ -70,7 +70,17 @@
                 "giantbomb",
                 "poh",
                 "container"
-              ]
+			  ],
+			  [
+			    "ftreward",
+				"gmreward",
+				"ltreward",
+				"agmirror",
+				"srreward",
+				"totreward",
+				"citsreward",
+				"potshadow"
+			  ]
             ]
           }
         ]
