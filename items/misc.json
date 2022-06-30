@@ -34,231 +34,231 @@
   {
     "name": "Male Ant",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-ant.png",
     "codes": "mant"
   },
   {
     "name": "Female Ant",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-ant.png",
     "codes": "fant"
   },
   {
     "name": "Male Mantis",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-mantis.png",
     "codes": "mmantis"
   },
   {
     "name": "Male Butterfly",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-butterfly.png",
     "codes": "mbutterfly"
   },
   {
     "name": "Male Phasmid",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-phasmid.png",
     "codes": "mphasmid"
   },
   {
     "name": "Male Dayfly",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-dayfly.png",
     "codes": "mdayfly"
   },
   {
     "name": "Male Stag Beetle",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-stag.png",
     "codes": "mstag"
   },
   {
     "name": "Male Ladybug",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-ladybug.png",
     "codes": "mladybug"
   },
   {
     "name": "Male Grasshopper",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-grass.png",
     "codes": "mgrass"
   },
   {
     "name": "Male Beetle",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-beetle.png",
     "codes": "mbeetle"
   },
   {
     "name": "Male Pill Bug",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-pill.png",
     "codes": "mpill"
   },
   {
     "name": "Male Snail",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-snail.png",
     "codes": "msnail"
   },
   {
     "name": "Male Dragonfly",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-m-dragon.png",
     "codes": "mdragon"
   },
   {
     "name": "Female Mantis",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-mantis.png",
     "codes": "fmantis"
   },
   {
     "name": "Female Butterfly",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-butterfly.png",
     "codes": "fbutterfly"
   },
   {
     "name": "Female Phasmid",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-phasmid.png",
     "codes": "fphasmid"
   },
   {
     "name": "Female Dayfly",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-dayfly.png",
     "codes": "fdayfly"
   },
   {
     "name": "Female Stag Beetle",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-stag.png",
     "codes": "fstag"
   },
   {
     "name": "Female Ladybug",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-ladybug.png",
     "codes": "fladybug"
   },
   {
     "name": "Female Grasshopper",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-grass.png",
     "codes": "fgrass"
   },
   {
     "name": "Female Beetle",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-beetle.png",
     "codes": "fbeetle"
   },
   {
     "name": "Female Pill Bug",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-pill.png",
     "codes": "fpill"
   },
   {
     "name": "Female Snail",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-snail.png",
     "codes": "fsnail"
   },
   {
     "name": "Female Dragonfly",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/bug-f-dragon.png",
     "codes": "fdragon"
   },
   {
     "name": "FT Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "ftbigkey"
   },
   {
     "name": "GM Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "gmbigkey"
   },
   {
     "name": "LT Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "ltbigkey"
   },
   {
     "name": "AG Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "agbigkey"
   },
   {
     "name": "Bedroom Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-bed.png",
     "codes": "bedroomkey"
   },
   {
     "name": "ToT Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "totbigkey"
   },
   {
     "name": "CitS Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "citsbigkey"
   },
   {
     "name": "PoT Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "potbigkey"
   },
   {
     "name": "HC Big Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-boss.png",
     "codes": "hcbigkey"
   },
@@ -313,7 +313,7 @@
   {
     "name": "CitS Small Keys",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-small.png",
     "codes": "citssmall"
   },
@@ -336,21 +336,21 @@
   {
     "name": "Faron Gate Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-small.png",
     "codes": "faronkey"
   },
   {
     "name": "Gate Keys",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-small.png",
     "codes": "gatekeys"
   },
   {
     "name": "Bulblin Camp Key",
     "type": "toggle",
-	"loop": true,
+    "loop": true,
     "img": "images/key-small.png",
     "codes": "campkey"
   }

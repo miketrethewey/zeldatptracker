@@ -1,0 +1,8 @@
+﻿[
+  {
+    "name": "Main",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/overworld_map.png"
+  }
+]

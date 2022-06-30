@@ -2,25 +2,25 @@
   {
     "name": "Sword",
     "type": "progressive",
-    "loop": false,
-	"stages": [
-		{
-			"img": "images/wooden-sword.png",
-			"codes": "woodsword"
-		},
-		{
-			"img": "images/ordon-sword.png",
-			"codes": "ordonsword"
-		},
-		{
-			"img": "images/master-sword.png",
-			"codes": "mastersword"
-		},
-		{
-			"img": "images/master-sword-light.png",
-			"codes": "lightsword"
-		}
-	]
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/wooden-sword.png",
+        "codes": "woodsword"
+      },
+      {
+        "img": "images/ordon-sword.png",
+        "codes": "ordonsword"
+      },
+      {
+        "img": "images/master-sword.png",
+        "codes": "mastersword"
+      },
+      {
+        "img": "images/master-sword-light.png",
+        "codes": "lightsword"
+      }
+    ]
   },
   {
     "name": "Ordon Shield",
@@ -108,47 +108,47 @@
     "img": "images/hiddenskill.png",
     "max_quantity": 7,
     "increment": 1,
-    "codes": "skill"
+    "codes": "skills"
   },
   {
     "name": "Quiver",
     "type": "progressive",
-    "loop": false,
-	"allow_disabled": false,
-	"stages": [
-		{
-			"img": "images/quiver1.png",
-			"codes": "quiver"
-		},
-		{
-			"img": "images/quiver2.png",
-			"codes": "bigquiver"
-		},
-		{
-			"img": "images/quiver3.png",
-			"codes": "giantquiver"
-		}
-	]
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/quiver1.png",
+        "codes": "quiver"
+      },
+      {
+        "img": "images/quiver2.png",
+        "codes": "bigquiver"
+      },
+      {
+        "img": "images/quiver3.png",
+        "codes": "giantquiver"
+      }
+    ]
   },
   {
     "name": "Wallet",
     "type": "progressive",
-    "loop": false,
-	"allow_disabled": false,
-	"stages": [
-		{
-			"img": "images/wallet.png",
-			"codes": "wallet"
-		},
-		{
-			"img": "images/bigwallet.png",
-			"codes": "bigwallet"
-		},
-		{
-			"img": "images/giantwallet.png",
-			"codes": "giantwallet"
-		}
-	]
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/wallet.png",
+        "codes": "wallet"
+      },
+      {
+        "img": "images/bigwallet.png",
+        "codes": "bigwallet"
+      },
+      {
+        "img": "images/giantwallet.png",
+        "codes": "giantwallet"
+      }
+    ]
   },
   {
     "name": "Giant Bomb Bag",
