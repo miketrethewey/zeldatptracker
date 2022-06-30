@@ -114,10 +114,11 @@
     "name": "Quiver",
     "type": "progressive",
     "loop": true,
+	"allow_disabled": false,
     "stages": [
       {
         "img": "images/quiver1.png",
-        "codes": "quiver, bow"
+        "codes": "quiver"
       },
       {
         "img": "images/quiver2.png",
@@ -157,25 +158,133 @@
     "codes": "giantbomb"
   },
   {
-    "name": "FT Fused Shadow",
-    "type": "toggle",
+    "name": "FT Reward",
+    "type": "progressive_toggle",
     "loop": true,
-    "img": "images/shadow1.png",
-    "codes": "ftshadow"
+	"initial_active_state": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+		"disabled_img": "images/unknown.png",
+        "codes": "ftreward, unknown"
+      },
+      {
+        "img": "images/shadow1.png",
+		"disabled_img": "images/shadow1.png",
+        "codes": "ftreward, shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+		"disabled_img": "images/shadow2.png",
+        "codes": "ftreward, shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+		"disabled_img": "images/shadow3.png",
+        "codes": "ftreward, shadow3"
+      },
+      {
+        "img": "images/shard2.png",
+		"disabled_img": "images/shard2.png",
+        "codes": "ftreward, shard2"
+      },
+      {
+        "img": "images/shard3.png",
+		"disabled_img": "images/shard3.png",
+        "codes": "ftreward, shard3"
+      },
+      {
+        "img": "images/shard4.png",
+		"disabled_img": "images/shard4.png",
+        "codes": "ftreward, shard4"
+      }
+    ]
   },
   {
-    "name": "GM Fused Shadow",
-    "type": "toggle",
+    "name": "GM Reward",
+    "type": "progressive_toggle",
     "loop": true,
-    "img": "images/shadow2.png",
-    "codes": "gmshadow"
+	"initial_active_state": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+		"disabled_img": "images/unknown.png",
+        "codes": "gmreward, unknown"
+      },
+      {
+        "img": "images/shadow1.png",
+		"disabled_img": "images/shadow1.png",
+        "codes": "gmreward, shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+		"disabled_img": "images/shadow2.png",
+        "codes": "gmreward, shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+		"disabled_img": "images/shadow3.png",
+        "codes": "gmreward, shadow3"
+      },
+      {
+        "img": "images/shard2.png",
+		"disabled_img": "images/shard2.png",
+        "codes": "gmreward, shard2"
+      },
+      {
+        "img": "images/shard3.png",
+		"disabled_img": "images/shard3.png",
+        "codes": "gmreward, shard3"
+      },
+      {
+        "img": "images/shard4.png",
+		"disabled_img": "images/shard4.png",
+        "codes": "gmreward, shard4"
+      }
+    ]
   },
   {
-    "name": "LT Fused Shadow",
-    "type": "toggle",
+    "name": "LT Reward",
+    "type": "progressive_toggle",
     "loop": true,
-    "img": "images/shadow3.png",
-    "codes": "ltshadow"
+	"initial_active_state": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+		"disabled_img": "images/unknown.png",
+        "codes": "ltreward, unknown"
+      },
+      {
+        "img": "images/shadow1.png",
+		"disabled_img": "images/shadow1.png",
+        "codes": "ltreward, shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+		"disabled_img": "images/shadow2.png",
+        "codes": "ltreward, shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+		"disabled_img": "images/shadow3.png",
+        "codes": "ltreward, shadow3"
+      },
+      {
+        "img": "images/shard2.png",
+		"disabled_img": "images/shard2.png",
+        "codes": "ltreward, shard2"
+      },
+      {
+        "img": "images/shard3.png",
+		"disabled_img": "images/shard3.png",
+        "codes": "ltreward, shard3"
+      },
+      {
+        "img": "images/shard4.png",
+		"disabled_img": "images/shard4.png",
+        "codes": "ltreward, shard4"
+      }
+    ]
   },
   {
     "name": "AG Mirror Shard",
@@ -185,24 +294,139 @@
     "codes": "agmirror"
   },
   {
-    "name": "SR Mirror Shard",
-    "type": "toggle",
+    "name": "SR Reward",
+    "type": "progressive_toggle",
     "loop": true,
-    "img": "images/shard2.png",
-    "codes": "srmirror"
+	"initial_active_state": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+		"disabled_img": "images/unknown.png",
+        "codes": "srreward, unknown"
+      },
+      {
+        "img": "images/shadow1.png",
+		"disabled_img": "images/shadow1.png",
+        "codes": "srreward, shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+		"disabled_img": "images/shadow2.png",
+        "codes": "srreward, shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+		"disabled_img": "images/shadow3.png",
+        "codes": "srreward, shadow3"
+      },
+      {
+        "img": "images/shard2.png",
+		"disabled_img": "images/shard2.png",
+        "codes": "srreward, shard2"
+      },
+      {
+        "img": "images/shard3.png",
+		"disabled_img": "images/shard3.png",
+        "codes": "srreward, shard3"
+      },
+      {
+        "img": "images/shard4.png",
+		"disabled_img": "images/shard4.png",
+        "codes": "srreward, shard4"
+      }
+    ]
   },
   {
-    "name": "ToT Mirror Shard",
-    "type": "toggle",
+    "name": "ToT Reward",
+    "type": "progressive_toggle",
     "loop": true,
-    "img": "images/shard3.png",
-    "codes": "totmirror"
+	"initial_active_state": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+		"disabled_img": "images/unknown.png",
+        "codes": "totreward, unknown"
+      },
+      {
+        "img": "images/shadow1.png",
+		"disabled_img": "images/shadow1.png",
+        "codes": "totreward, shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+		"disabled_img": "images/shadow2.png",
+        "codes": "totreward, shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+		"disabled_img": "images/shadow3.png",
+        "codes": "totreward, shadow3"
+      },
+      {
+        "img": "images/shard2.png",
+		"disabled_img": "images/shard2.png",
+        "codes": "totreward, shard2"
+      },
+      {
+        "img": "images/shard3.png",
+		"disabled_img": "images/shard3.png",
+        "codes": "totreward, shard3"
+      },
+      {
+        "img": "images/shard4.png",
+		"disabled_img": "images/shard4.png",
+        "codes": "totreward, shard4"
+      }
+    ]
   },
   {
-    "name": "CitS Mirror Shard",
+    "name": "CitS Reward",
+    "type": "progressive_toggle",
+    "loop": true,
+	"initial_active_state": false,
+    "stages": [
+      {
+        "img": "images/unknown.png",
+		"disabled_img": "images/unknown.png",
+        "codes": "citsreward, unknown"
+      },
+      {
+        "img": "images/shadow1.png",
+		"disabled_img": "images/shadow1.png",
+        "codes": "citsreward, shadow1"
+      },
+      {
+        "img": "images/shadow2.png",
+		"disabled_img": "images/shadow2.png",
+        "codes": "citsreward, shadow2"
+      },
+      {
+        "img": "images/shadow3.png",
+		"disabled_img": "images/shadow3.png",
+        "codes": "citsreward, shadow3"
+      },
+      {
+        "img": "images/shard2.png",
+		"disabled_img": "images/shard2.png",
+        "codes": "citsreward, shard2"
+      },
+      {
+        "img": "images/shard3.png",
+		"disabled_img": "images/shard3.png",
+        "codes": "citsreward, shard3"
+      },
+      {
+        "img": "images/shard4.png",
+		"disabled_img": "images/shard4.png",
+        "codes": "citsreward, shard4"
+      }
+    ]
+  },
+  {
+    "name": "PoT Fused Shadow",
     "type": "toggle",
     "loop": true,
-    "img": "images/shard4.png",
-    "codes": "citsmirror"
+    "img": "images/fused-shadow.png",
+    "codes": "potshadow"
   }
 ]

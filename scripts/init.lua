@@ -48,6 +48,7 @@ grids = {
   "armors",
   "bottles",
   "collectibles",
+  "rewards",
   "scents",
   "shields",
   "swords",
@@ -84,8 +85,13 @@ if string.find(variant, "map") then
   Tracker:AddLocations("locations/world.json")
   print("")
 
+  ---- Options Items
+  print("Loading Map Options Items")
+  Tracker:AddLayouts("items/options.json")
+  print("")
+
   ---- Options Layout
-  print("Loading Map Options")
+  print("Loading Map Options Layout")
   Tracker:AddLayouts("layouts/options.json")
   print("")
 else
