@@ -114,11 +114,10 @@
     "name": "Quiver",
     "type": "progressive",
     "loop": true,
-    "allow_disabled": false,
     "stages": [
       {
         "img": "images/quiver1.png",
-        "codes": "quiver"
+        "codes": "quiver, bow"
       },
       {
         "img": "images/quiver2.png",

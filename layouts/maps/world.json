@@ -1,8 +1,8 @@
 {
   "game_map": {
-    "content": {
-      "type": "map",
-      "maps": ["world"]
-    }
+    "type": "map",
+    "maps": [
+      "hyrule"
+    ]
   }
 }

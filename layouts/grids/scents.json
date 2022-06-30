@@ -1,0 +1,16 @@
+{
+  "scents_grid": {
+    "type": "itemgrid",
+    "item_margin": "1,1",
+    "item_size": 45,
+    "rows": [
+      [
+        "youth",
+        "iliascent",
+        "poescent",
+        "reekfish",
+        "medicine"
+      ]
+    ]
+  }
+}

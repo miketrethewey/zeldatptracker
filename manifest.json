@@ -8,7 +8,7 @@
     "standard": {
       "display_name": "Item Tracker"
     },
-    "var_maptracker": {
+    "variants/var_maptracker": {
       "display_name": "Map Tracker"
     }
   }

@@ -1,0 +1,20 @@
+{
+  "collectibles_grid": {
+    "type": "itemgrid",
+    "item_margin": "1,1",
+    "item_size": 45,
+    "rows": [
+      [
+        "soul",
+        "bugs",
+        "skills"
+      ],
+      [
+        "poh",
+        "container",
+        "book",
+        "bottles"
+      ]
+    ]
+  }
+}

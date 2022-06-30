@@ -1,3 +1,32 @@
+-- Version
+-- Settings
+-- Auto-Tracking
+-- Items
+-- Grids
+
+-- Variants
+--- Map Variant
+---- Map Definitions
+---- Map Layouts
+---- Locations
+
+-- No Variant
+--- Default "Variant"
+--- Default Layouts
+--- Dummy Maps
+--- Dummy Locations
+
+--===--
+
+-- Version
+-- FIXME
+
+-- Settings
+-- FIXME
+
+-- Auto-Tracking
+-- FIXME
+
 local items_only = "standard"
 local variant = Tracker.ActiveVariantUID
 if variant == "" then
@@ -5,47 +34,75 @@ if variant == "" then
 end
 
 -- Items
-print("Loading Items")
+print("Loading Global Items")
 Tracker:AddItems("items/wheel.json")
 Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/misc.json")
 Tracker:AddItems("items/options.json")
 print("")
 
--- Other Layouts
-print("Loading Layouts")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/broadcast.json")
+-- Grids
+print("Loading Global Grids")
+dir = "layouts/grids"
+grids = {
+  "armors",
+  "bottles",
+  "collectibles",
+  "scents",
+  "shields",
+  "swords",
+  "upgrades",
+  "toggles",
+  "progressives",
+  "grids"
+}
+for _, gridCat in ipairs(grids) do
+  Tracker:AddLayouts(dir .. "/" .. gridCat .. ".json")
+end
 print("")
 
+-- Variants
 if string.find(variant, "map") then
+  --- Map Variant
   print("Map Variant; load map stuff")
   print("")
 
-  -- Options Layout
-  print("Loading Options")
-  Tracker:AddLayouts("variants/" .. variant .. "/layouts/options.json")
-  print("")
-
-  print("Loading Maps")
-  -- Overworld Map
+  ---- Map Definitions
+  print("Loading Map Definitions")
+  ----- Overworld Map
   Tracker:AddMaps("maps/maps.json")
   print("")
+
+  ---- Map Layouts
+  print("Loading Map Layouts")
+  ----- Overworld Map
+  Tracker:AddLayouts("layouts/maps/world.json")
+  print("")
+
+  ---- Locations
+  print("Loading Map Locations")
+  Tracker:AddLocations("locations/world.json")
+  print("")
+
+  ---- Options Layout
+  print("Loading Map Options")
+  Tracker:AddLayouts("layouts/options.json")
+  print("")
 else
+  -- No Variant
   print("Not a Map Variant; load default stuff")
-end
 
--- Legacy
-print("Satisfy Legacy Loads")
-Tracker:AddMaps("maps/maps.json")
-Tracker:AddLocations("locations/world.json")
-print("")
-
--- Variant Overrides
-if variant ~= items_only then
-  print("Loading Variant")
-  -- Layout Overrides
-  Tracker:AddLayouts("variants/" .. variant .. "/layouts/tracker.json")    -- Main Tracker
-  Tracker:AddLayouts("variants/" .. variant .. "/layouts/broadcast.json")  -- Broadcast View
+  -- Legacy
+  print("Satisfy Legacy Loads")
+  --- Dummy Maps
+  Tracker:AddMaps("maps/maps.json")
+  --- Dummy Locations
+  Tracker:AddLocations("locations/world.json")
   print("")
 end
+
+-- Other Layouts
+print("Loading " .. (variant ~= items_only and ("Variant (" .. variant .. ")") or "Global") .. " Layouts")
+Tracker:AddLayouts("layouts/tracker.json")
+Tracker:AddLayouts("layouts/broadcast.json")
+print("")

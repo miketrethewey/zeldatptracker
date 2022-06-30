@@ -1,147 +1,12 @@
 {
-  "shared_item_grid": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "1,2",
-    "item_size": 40,
-    "rows": [
-      [
-        "fishingrod",
-        "slingshot",
-        "lantern",
-        "rang",
-        "irons",
-        "bow"
-      ],
-      [
-        "bombs",
-        "waterbomb",
-        "clawshot",
-        "spinner",
-        "b&c",
-        "brokerod"
-      ],
-      [
-        "bottleempty",
-        "bottleempty",
-        "bottleempty",
-        "bottleempty",
-        "hawkeye",
-        "call"
-      ],
-      [
-        "woodsword",
-        "ordonshield",
-        "hylianshield",
-        "herotunic",
-        "zora",
-        "magic"
-      ],
-      [
-        "crystal",
-        "youth",
-        "iliascent",
-        "poescent",
-        "reekfish",
-        "medicine"
-      ],
-      [
-        "memo",
-        "sketch",
-        "letter",
-        "book",
-        "soul",
-        "bugs"
-      ],
-      [
-        "skills",
-        "wallet",
-        "quiver",
-        "giantbomb",
-        "poh",
-        "container"
-      ]
-    ]
-  },
-  "tracker_capture_item": {
-    "type": "container",
-    "content": {
-      "type": "itemgrid",
-      "h_alignment": "center",
-      "item_margin": "1,2",
-      "item_size": 40,
-      "rows": [
-        [
-          "fishingrod",
-          "slingshot",
-          "lantern",
-          "rang",
-          "irons",
-          "bow"
-        ],
-        [
-          "bombs",
-          "waterbomb",
-          "clawshot",
-          "spinner",
-          "b&c",
-          "brokerod"
-        ],
-        [
-          "bottleempty",
-          "bottleempty",
-          "bottleempty",
-          "bottleempty",
-          "hawkeye",
-          "call"
-        ],
-        [
-          "woodsword",
-          "ordonshield",
-          "hylianshield",
-          "herotunic",
-          "zora",
-          "magic"
-        ],
-        [
-          "crystal",
-          "youth",
-          "iliascent",
-          "poescent",
-          "reekfish",
-          "medicine"
-        ],
-        [
-          "memo",
-          "sketch",
-          "letter",
-          "book",
-          "soul",
-          "bugs"
-        ],
-        [
-          "skills",
-          "wallet",
-          "quiver",
-          "giantbomb",
-          "poh",
-          "container"
-        ]
-      ]
-    }
-  },
   "tracker_default": {
     "type": "container",
-    "background": "#000000",
     "content": {
       "type": "dock",
-      "dropshadow": false,
       "content": [
         {
           "type": "dock",
           "dock": "left",
-          "v_alignment": "stretch",
-          "margin": "0,0,3,0",
           "content": [
             {
               "type": "group",
@@ -150,7 +15,6 @@
               "header_content": {
                 "type": "button_popup",
                 "style": "settings",
-                "popup_background": "#FF212121",
                 "layout": "options_popup"
               },
               "content": {
@@ -173,69 +37,8 @@
           ]
         },
         {
-          "type": "container",
-          "background": "#000000",
-          "content": {
-            "type": "map",
-            "maps": [
-              "Main"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "tracker_horizontal": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": false,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "left",
-          "v_alignment": "stretch",
-          "margin": "0,0,3,0",
-          "content": [
-            {
-              "type": "group",
-              "header": "Items",
-              "dock": "top",
-              "header_content": {
-                "type": "button_popup",
-                "style": "settings",
-                "popup_background": "#FF212121",
-                "layout": "options_popup"
-              },
-              "content": {
-                "type": "layout",
-                "key": "shared_item_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Pinned Locations",
-              "dock": "left",
-              "content": {
-                "type": "recentpins",
-                "style": "wrap",
-                "h_alignment": "stretch",
-                "v_alignment": "stretch",
-                "compact": true
-              }
-            }
-          ]
-        },
-        {
-          "type": "container",
-          "background": "#000000",
-          "content": {
-            "type": "map",
-            "maps": [
-              "Main"
-            ]
-          }
+          "type": "layout",
+          "key": "game_map"
         }
       ]
     }
