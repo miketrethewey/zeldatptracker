@@ -353,5 +353,13 @@
     "loop": true,
     "img": "images/key-small.png",
     "codes": "campkey"
+  },
+  {
+    "name": "Ice Trap",
+    "type": "consumable",
+    "img": "images/mini-freezard.png",
+    "max_quantity": 999,
+    "increment": 1,
+    "codes": "icetrap"
   }
 ]
