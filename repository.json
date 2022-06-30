@@ -1,0 +1,29 @@
+{
+  "name": "XenoWars' Packs",
+  "packages": [
+    {
+      "name": "Twilight Princess Item Tracker",
+      "author": "XenoWars",
+      "game_name": "Twilight Princess",
+      "flags": [
+        "map",
+        "pins"
+      ],
+      "documentation_url": "",
+      "variants": [
+        {
+          "name": "Item Tracker"
+        },
+        {
+          "name": "Map Tracker",
+          "flags": [
+            "map",
+            "pins"
+          ]
+        }
+      ],
+      "uid": "zeldatp_xenowars",
+      "version": "1.0.0"
+    }
+  ]
+}
