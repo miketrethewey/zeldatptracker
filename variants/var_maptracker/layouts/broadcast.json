@@ -13,7 +13,7 @@
             "type": "itemgrid",
             "h_alignment": "center",
             "item_margin": "1,2",
-            "item_size": 60,
+            "item_size": 35,
             "rows": [
               [
                 "fishingrod",
@@ -70,7 +70,17 @@
                 "giantbomb",
                 "poh",
                 "container"
-              ]
+              ],
+			  [
+			    "ftreward",
+				"gmreward",
+				"ltreward",
+				"agmirror",
+				"srreward",
+				"totreward",
+				"citsreward",
+				"potshadow"
+			  ]
             ]
           }
         ]

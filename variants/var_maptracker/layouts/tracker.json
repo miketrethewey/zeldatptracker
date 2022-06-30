@@ -3,7 +3,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "1,2",
-    "item_size": 40,
+    "item_size": 35,
     "rows": [
       [
         "fishingrod",
@@ -60,7 +60,17 @@
         "giantbomb",
         "poh",
         "container"
-      ]
+      ],
+	  [
+		"ftreward",
+		"gmreward",
+		"ltreward",
+		"agmirror",
+		"srreward",
+		"totreward",
+		"citsreward",
+		"potshadow"
+	  ]
     ]
   },
   "tracker_capture_item": {
@@ -69,7 +79,7 @@
       "type": "itemgrid",
       "h_alignment": "center",
       "item_margin": "1,2",
-      "item_size": 40,
+      "item_size": 35,
       "rows": [
         [
           "fishingrod",
@@ -126,7 +136,17 @@
           "giantbomb",
           "poh",
           "container"
-        ]
+        ],
+	    [
+		  "ftreward",
+		  "gmreward",
+		  "ltreward",
+		  "agmirror",
+		  "srreward",
+		  "totreward",
+		  "citsreward",
+		  "potshadow"
+	    ]
       ]
     }
   },
